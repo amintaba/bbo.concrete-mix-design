@@ -10,25 +10,25 @@ nVar=9;                             % Number of Decision Variables
 
 VarSize=[1 nVar];                     % Decision Variables Matrix Size
 
-w_min = 126;                          % Decision Variables Lower Bound   
-c_min = 274;
-coarseag_min = 692;
-fineag_min = 625;
+w_min = 0;                          % Decision Variables Lower Bound   
+c_min = 0;
+coarseag_min =0 ;
+fineag_min = ;
 micro_min= 0;
 nano_min = 0;
 steel_alyaf_min = 0; 
 pp_alyaf_min = 0;
 glass_alyaf_min = 0;
 
-w_max =  270;                         % Decision Variables Upper Bound
-c_max =  540;
-coarseag_max = 1150;
-fineag_max = 1050;
-micro_max =  54;
-nano_max = 42;
-steel_alyaf_max = 25;
-pp_alyaf_max = 8;
-glass_alyaf_max = 21 ;
+w_max =  1;                         % Decision Variables Upper Bound
+c_max =  1;
+coarseag_max = 1;
+fineag_max = 1;
+micro_max = 1;
+nano_max = 1;
+steel_alyaf_max = 1;
+pp_alyaf_max = 1;
+glass_alyaf_max = 1 ;
 
 % BBO Parameters
 
